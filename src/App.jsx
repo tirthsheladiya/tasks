@@ -5,19 +5,19 @@ import BeneficialCard from "./Components/BeneficialCard";
 const App = () => {
   const BeneficialCards = [
     {
-      img: "/illust 1.png",
+      img: "/Illust-1.png",
       title: "Happy Customer",
       description:
         "Productive agents are happy agents. Give them all the support tools and information they need to best serve your customers.",
     },
     {
-      img: "/illust 2.png",
+      img: "/illust-2.png",
       title: "Best Integrations",
       description:
         "Our software is powerful enough to handle the most complex business, yet flexible enough to scale with you as you grow.",
     },
     {
-      img: "/illust 3.png",
+      img: "/illust-3.png",
       title: "Grow Without Problems",
       description:
         "with evaluating in depth variety of data sets and including the speed of tech adaptation we can build bridges between any companies and their customers.",
@@ -131,7 +131,7 @@ const App = () => {
             <p className="text-white text-[10px]">2023</p>
           </div>
           <img
-            src="/Collabe.jpg"
+            src="/collabe.jpg"
             alt="collabe"
             className="w-[300px] md:w-full h-full object-cover rounded-tr-xl rounded-br-xl"
           />
@@ -225,7 +225,7 @@ const App = () => {
             <div className="flex flex-col gap-5 bg-[#FFFFFF] p-5 rounded-lg min-w-60 h-80 md:h-50 ">
               <img
                 className="w-[20px] h-[20px] object-cover"
-                src="/Colon.png"
+                src="/colon.png"
                 alt="founder"
               />
               <p className="text-lg text-gray-500">
