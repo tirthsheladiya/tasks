@@ -31,7 +31,7 @@ const App = () => {
           <div>
             <img
               className="w-full h-60 hidden md:block"
-              src="/hero 5.png"
+              src="/Hero-5.png"
               alt="hero"
             />
           </div>
@@ -75,10 +75,10 @@ const App = () => {
           <div className="flex  gap-5 mt-10 md:mt-0">
             <img
               className="h-50 md:h-60  md:hidden "
-              src="/hero 5.png"
+              src="/Hero-5.png"
               alt="hero"
             />
-            <img className="h-50 md:h-60" src="/hero 6.png" alt="hero" />
+            <img className="h-50 md:h-60" src="/Hero-6.png" alt="hero" />
           </div>
         </div>
       </div>
@@ -441,8 +441,8 @@ const App = () => {
       <div className="flex flex-col md:flex-row md:gap-15 gap-5 bg-[#FFFFFF] md:p-20 p-10">
         <div className="flex flex-col gap-5">
           <div className="flex justify-center items-center gap-2">
-            <img src="./public/logo.png" alt="logo" />
-            <img src="./public/Trustco..png" alt="logo" />
+            <img src="Logo.png" alt="logo" />
+            <img src="/Trustco..png" alt="logo" />
           </div>
           <div className="flex justify-center items-center gap-2 text-3xl text-gray-500">
             <i class="ri-facebook-circle-fill"></i>

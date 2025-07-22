@@ -9,31 +9,19 @@ const Companies = () => {
         </p>
 
         <div className="flex flex-wrap justify-center gap-y-6 gap-x-10 md:flex-nowrap">
+          <img src="/Google.png" alt="companies" className="w-15 md:w-20 h-5" />
           <img
-            src="./src/Images/Google.png"
+            src="./Atlassian.png"
             alt="companies"
             className="w-15 md:w-20 h-5"
           />
+          <img src="/Canon.png" alt="companies" className="w-15 md:w-20 h-5" />
           <img
-            src="./src/Images/Atlassian.png"
+            src="/Walmart.png"
             alt="companies"
             className="w-15 md:w-20 h-5"
           />
-          <img
-            src="./src/Images/Canon.png"
-            alt="companies"
-            className="w-15 md:w-20 h-5"
-          />
-          <img
-            src="./src/Images/Walmart.png"
-            alt="companies"
-            className="w-15 md:w-20 h-5"
-          />
-          <img
-            src="./src/Images/Amazon.png"
-            alt="companies"
-            className="w-15 md:w-20 h-5"
-          />
+          <img src="/Amazon.png" alt="companies" className="w-15 md:w-20 h-5" />
         </div>
       </div>
     </>
