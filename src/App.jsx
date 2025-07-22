@@ -31,7 +31,7 @@ const App = () => {
           <div>
             <img
               className="w-full h-60 hidden md:block"
-              src="./public/hero 5.png"
+              src="/hero 5.png"
               alt="hero"
             />
           </div>
@@ -75,14 +75,10 @@ const App = () => {
           <div className="flex  gap-5 mt-10 md:mt-0">
             <img
               className="h-50 md:h-60  md:hidden "
-              src="./public/hero 5.png"
+              src="/hero 5.png"
               alt="hero"
             />
-            <img
-              className="h-50 md:h-60"
-              src="./public/hero 6.png"
-              alt="hero"
-            />
+            <img className="h-50 md:h-60" src="/hero 6.png" alt="hero" />
           </div>
         </div>
       </div>
