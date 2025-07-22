@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center p-4  text-[#043A53] mx-0 md:mx-15 bg-[#FFFFFF] md:bg-transparent">
       <div className="flex gap-2 items-center">
-        <img className="h-6" src="./public/logo.png" alt="logo" />
-        <img className="h-4" src="./public/Trustco..png" alt="logo" />
+        <img className="h-6" src="/Logo.png" alt="logo" />
+        <img className="h-4" src="/Trustco..png" alt="logo" />
       </div>
       <div className="flex gap-8 font-bold text-sm hidden md:flex">
         <h4>Features</h4>
