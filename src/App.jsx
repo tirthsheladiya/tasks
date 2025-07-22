@@ -5,19 +5,19 @@ import BeneficialCard from "./Components/BeneficialCard";
 const App = () => {
   const BeneficialCards = [
     {
-      img: "./src/Images/illust 1.png",
+      img: "/Images/illust 1.png",
       title: "Happy Customer",
       description:
         "Productive agents are happy agents. Give them all the support tools and information they need to best serve your customers.",
     },
     {
-      img: "./src/Images/illust 2.png",
+      img: "/Images/illust 2.png",
       title: "Best Integrations",
       description:
         "Our software is powerful enough to handle the most complex business, yet flexible enough to scale with you as you grow.",
     },
     {
-      img: "./src/Images/illust 3.png",
+      img: "/Images/illust 3.png",
       title: "Grow Without Problems",
       description:
         "with evaluating in depth variety of data sets and including the speed of tech adaptation we can build bridges between any companies and their customers.",
@@ -102,7 +102,7 @@ const App = () => {
         <div className="overflow-hidden">
           <img
             className="w-full h-full rounded-lg"
-            src="./src/Images/video-bg.jpg"
+            src="/Images/video-bg.jpg"
             alt="hero"
           />
         </div>
@@ -135,7 +135,7 @@ const App = () => {
             <p className="text-white text-[10px]">2023</p>
           </div>
           <img
-            src="./src/Images/Collabe.jpg"
+            src="/Images/Collabe.jpg"
             alt="collabe"
             className="w-[300px] md:w-full h-full object-cover rounded-tr-xl rounded-br-xl"
           />
@@ -204,15 +204,15 @@ const App = () => {
         <div className="md:w-[50%] w-full relative">
           <img
             className="absolute top-6/7 md:left-[10%] left-[10%] transform -translate-y-1/2 rounded-full h-[70px] md:h-[200px] w-[70px] md:w-[200px] object-cover border-2 border-white shadow-lg z-1000"
-            src="./src/Images/founder-1.jpg"
+            src="/Images/founder-1.jpg"
             alt="founder"
           />
           <img
             className="absolute top-[20%] left-4/6 transform -translate-x-1/2 -z-10 md:h-[200px] h-[100px] md:w-[100px] w-[50px] "
-            src="./src/Images/Decoration.png"
+            src="/Images/Decoration.png"
             alt="founder"
           />
-          <img src="./src/Images/founder.png" alt="founder" />
+          <img src="/Images/founder.png" alt="founder" />
         </div>
       </div>
       <div className="md:p-20 p-10 bg-[#f2f5f6] md:gap-10 gap-5 flex flex-col">
@@ -229,7 +229,7 @@ const App = () => {
             <div className="flex flex-col gap-5 bg-[#FFFFFF] p-5 rounded-lg min-w-60 h-80 md:h-50 ">
               <img
                 className="w-[20px] h-[20px] object-cover"
-                src="./src/Images/Colon.png"
+                src="/Images/Colon.png"
                 alt="founder"
               />
               <p className="text-lg text-gray-500">
@@ -239,7 +239,7 @@ const App = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="rounded-full h-[50px] w-[50px] object-cover"
-                  src="./src/Images/testimonial-1.png"
+                  src="/Images/testimonial-1.png"
                   alt="founder"
                 />
                 <div>
@@ -253,7 +253,7 @@ const App = () => {
             <div className="flex flex-col gap-5 bg-[#FFFFFF] p-5 rounded-lg min-w-60 h-80 md:h-50 ">
               <img
                 className="w-[20px] h-[20px] object-cover"
-                src="./src/Images/Colon.png"
+                src="/Images/Colon.png"
                 alt="founder"
               />
               <p className="text-lg text-gray-500">
@@ -263,7 +263,7 @@ const App = () => {
               <div className="flex items-center gap-2">
                 <img
                   className="rounded-full h-[50px] w-[50px] object-cover"
-                  src="./src/Images/testimonial-1.png"
+                  src="/Images/testimonial-1.png"
                   alt="founder"
                 />
                 <div>
@@ -278,22 +278,22 @@ const App = () => {
           <div className="flex gap-1 p-5 rounded-lg  justify-center items-center order-1 md:order-2 ">
             <img
               className="w-[20px] h-[10px] object-cover rounded-lg"
-              src="./src/Images/1.png"
+              src="/Images/1.png"
               alt="founder"
             />
             <img
               className="w-[40px] h-[10px] object-cover rounded-lg"
-              src="./src/Images/Current.png"
+              src="/Images/Current.png"
               alt="founder"
             />
             <img
               className="w-[20px] h-[10px] object-cover rounded-lg"
-              src="./src/Images/1.png"
+              src="/Images/1.png"
               alt="founder"
             />
             <img
               className="w-[20px] h-[10px] object-cover rounded-lg"
-              src="./src/Images/1.png"
+              src="/Images/1.png"
               alt="founder"
             />
           </div>
@@ -318,7 +318,7 @@ const App = () => {
             <div>
               <img
                 className="md:w-80 w-130 md:h-50 h-60 rounded-t-lg object-cover"
-                src="./src/Images/w-1.jpg"
+                src="/Images/w-1.jpg"
                 alt="founder"
               />
             </div>
@@ -346,7 +346,7 @@ const App = () => {
             <div>
               <img
                 className="md:w-80 w-130 md:h-50 h-60 rounded-t-lg object-cover"
-                src="./src/Images/w-2.jpg"
+                src="/Images/w-2.jpg"
                 alt="founder"
               />
             </div>
@@ -374,7 +374,7 @@ const App = () => {
             <div>
               <img
                 className="md:w-80 w-130 md:h-50 h-60 rounded-t-lg object-cover"
-                src="./src/Images/w-3.jpg"
+                src="/Images/w-3.jpg"
                 alt="founder"
               />
             </div>
@@ -418,26 +418,26 @@ const App = () => {
         </div>
         <div className="absolute md:top-0 top-1/2 md:right-0">
           <img
-            src="./src/Images/Girl-1.png"
+            src="/Images/Girl-1.png"
             className="relative z-10 md:h-140 h-120 md:w-200 w-130"
           />
         </div>
 
         <div className="absolute bottom-0  md:right-55 right-15">
           <img
-            src="./src/Images/Yellow.png"
+            src="/Images/Yellow.png"
             className="relative z-0 md:h-60 h-30 md:w-25 w-15"
           />
         </div>
         <div className="absolute bottom-0 md:right-90 right-30">
           <img
-            src="./src/Images/Green.png"
+            src="/Images/Green.png"
             className="relative z-10 md:h-30 h-15 md:w-25 w-10"
           />
         </div>
         <div className="absolute bottom-0  md:right-150 right-70">
           <img
-            src="./src/Images/Black.png"
+            src="/Images/Black.png"
             className="relative z-10 md:h-20 h-10 md:w-20 w-10"
           />
         </div>
